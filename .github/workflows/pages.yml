@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: guessify.me
+      url: https://guessify.me
     runs-on: ubuntu-latest
     defaults:
       run:
