@@ -4,7 +4,7 @@ import texts from "./texts.js";
 // export const FRONT_URL = "http://localhost:5173";
 
 const API_URL = "https://guessify-api.guimaraes.eng.br";
-export const FRONT_URL = "guessify.me";
+export const FRONT_URL = "https://guessify.me";
 
 export const AUTH_URL = `${API_URL}/auth`;
 export const CB_URL = FRONT_URL;
