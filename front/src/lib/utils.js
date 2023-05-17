@@ -1,8 +1,5 @@
 import texts from "./texts.js";
 
-// const API_URL = "http://localhost:5000";
-// export const FRONT_URL = "http://localhost:5173";
-
 const API_URL = "https://guessify-api.guimaraes.eng.br";
 export const FRONT_URL = "https://guessify.me";
 
