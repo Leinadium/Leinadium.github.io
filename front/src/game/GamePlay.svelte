@@ -126,14 +126,15 @@
         currentInfo.playedMs = state.position;
 
         // update end of track
-        if (currentInfo.state === "game" && state.position === 0) {
-            if (state.track_window.previous_tracks.length > 0) {
-                console.log(state.track_window.previous_tracks[0].uri);
-                console.log(currentInfo.musicInfo.uri);
-                if (state.track_window.previous_tracks[0].uri === currentInfo.musicInfo.uri)
-                    endRound(-1);
-            }
-        }
+        // TODO: fix this
+        // if (currentInfo.state === "game" && state.position === 0) {
+        //     if (state.track_window.previous_tracks.length > 0) {
+        //         console.log(state.track_window.previous_tracks[0].uri);
+        //         console.log(currentInfo.musicInfo.uri);
+        //         if (state.track_window.previous_tracks[0].uri === currentInfo.musicInfo.uri)
+        //             endRound(-1);
+        //     }
+        // }
 
     }
 
