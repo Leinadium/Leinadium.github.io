@@ -67,7 +67,7 @@ export async function getAllTracks(conn, uriId, uriType) {
     // lets fix that (because the rest of the code depends on this stupid behavior)
     if (uriType === "album") {
         // a.map((x) => {return {teste: x}}) 
-        tracks = tracks.map((t) => {return {track: {t}}});
+        tracks = tracks.map((t) => {return {track: t}});
     }
 
     return {
